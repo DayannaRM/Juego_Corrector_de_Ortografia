@@ -4,37 +4,6 @@ userList = [{"name":"Dayanna","nickname":"dram","id": "dram", "password":"123","
 
 
 
-def typeRolUI():
-    print("Que usuario quiere agregar?:\n"
-          "1) Administrador\n"
-          "2) Jugador\n"
-          "3) Regresar\n")
-    option = int(input("Rol: "))
-
-    if (option == 1):
-        return "Administrador"
-        adminstratorOpcions()
-    elif option == 2:
-        return "Jugador"
-        adminstratorOpcions()
-    elif option == 3:
-        adminstratorOpcions()
-
-    else:
-        return "Unknow"
-
-
-def register():
-    name = (input("1) Nombre: "))
-    nickname = (input("2) Nickname: "))
-    id = int(input("3) ID: "))
-    password = (input("4) Password:"))
-    typeRol = typeRolUI()
-
-    registerUser(name,nickname,id,password,typeRol)
-
-
-
 def registerUser(name,nickname,id,password,typeRol):
     newUser = {}
     newUser["name"] = name
@@ -45,6 +14,17 @@ def registerUser(name,nickname,id,password,typeRol):
 
     userList.append(newUser)
 
+
+def register():
+    name = (input("1) Nombre: "))
+    nickname = (input("2) Nickname: "))
+    id = input("3) ID: ")
+    password = (input("4) Password:"))
+    print("Rol= Administrador o Jugador")
+    typeRol = input(str("Tipo de rol: "))
+
+    registerUser(name,nickname,id,password,typeRol)
+    adminstratorOpcions()
 
 
 
@@ -60,16 +40,18 @@ def userAdministrator():
         register()
     elif opcion == 3:
         print(userList)
-
+        adminstratorOpcions()
 
 def adminstratorOpcions():
     print("1) Administrar usuarios\n"
-          "2) Regresar")
+          "2) Menu de inicio de secion")
 
     opcion = int(input("opcion: "))
 
     if opcion == 1:
         userAdministrator()
+    elif opcion == 2:
+        mainLogin()
 
 
 def loginUser(id,password):
@@ -78,23 +60,24 @@ def loginUser(id,password):
         if user["id"] == id:
             if user["password"] == password:
                 verifyTyoeRol(user)
-            else:
+            elif user["id"] != id and user["password"] != password:
                 print("Intente de nuevo")
+                intentos = 1
+                while intentos < 4:
+                    print("Lleva " + str(intentos)+ " intentos de 3")
+                    intentos+=1
+                    mainLogin()
+            else:
+                print("No le quedan intentos")
+                mainLogin()
 
-                #intentos = 0
-                #while intentos < 4:
-                #    if intentos <= 3:
-                #        print("Lleva " + str(intentos)+ " intentos de 3")
-                #        mainLogin()
-                #        intentos+=1
-                #    else:
-                #        print("No le quedan intentos")'''
-
+        else:
+            mainLogin()
 def verifyTyoeRol(user):
     print(user["name"] + ", usted tiene el rol de: " + user["typeRol"] )
-    if user["typeRol"] == "Administrador":
+    if user["typeRol"] == "Administrador" or "administrador":
         adminstratorOpcions()
-    elif user["typeRol"] == "Jugador":
+    elif user["typeRol"] == "Jugador" or "jugador":
         pass
 
 
