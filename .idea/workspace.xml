@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64aa781-95b7-481f-b9c9-795b135be4f1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Juego_Corrector_de_Ortografia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Juego_Corrector_de_Ortografia.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_game.py" afterDir="false" />
     </list>
@@ -12,29 +13,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Juego_Corrector_de_Ortografia" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main_game.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main_game.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Elections.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="190">
+              <caret line="529" lean-forward="true" selection-start-line="529" selection-end-line="529" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../Agenda Day/main.py">
+      <file leaf-file-name="main_game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1230" />
+            <state relative-caret-position="3179">
+              <caret line="187" column="59" lean-forward="true" selection-start-line="187" selection-start-column="59" selection-end-line="187" selection-end-column="59" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diccionariosListas.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
+      <file leaf-file-name="juegoListaAnidadas.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/juegoListaAnidadas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="896">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
             </state>
           </provider>
         </entry>
@@ -54,13 +60,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ASD.py" />
+        <option value="$PROJECT_DIR$/matriz.py" />
+        <option value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py" />
+        <option value="$PROJECT_DIR$/ahorcado.py" />
+        <option value="$PROJECT_DIR$/prueba.py" />
         <option value="$PROJECT_DIR$/main_game.py" />
+        <option value="$PROJECT_DIR$/juegoDosListas.py" />
+        <option value="$PROJECT_DIR$/juegoListaAnidadas.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-6" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -69,7 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,6 +93,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -99,8 +112,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main_game">
-    <configuration name="Formas de crear diccionarios" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.juegoListaAnidadas">
+    <configuration name="OrdenarDiccionariosBurbuja" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,17 +121,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Jaz/Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Jaz/Python/Formas de crear diccionarios.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/OrdenarDiccionariosBurbuja.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Laboratorio 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="juegoDosListas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,17 +139,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Jaz/Practicas Python" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Jaz/Practicas Python/Laboratorio 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juegoDosListas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PROYECTO1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="juegoListaAnidadas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,17 +157,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Jaz/Documentos proyecto" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Jaz/Documentos proyecto/PROYECTO1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juegoListaAnidadas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="listas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../Agenda Day" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/listas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../Agenda Day/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,19 +204,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Laboratorio 1" />
-      <item itemvalue="Python.PROYECTO1" />
-      <item itemvalue="Python.Formas de crear diccionarios" />
-      <item itemvalue="Python.listas" />
       <item itemvalue="Python.main_game" />
+      <item itemvalue="Python.OrdenarDiccionariosBurbuja" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.juegoDosListas" />
+      <item itemvalue="Python.juegoListaAnidadas" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.juegoListaAnidadas" />
+        <item itemvalue="Python.juegoDosListas" />
         <item itemvalue="Python.main_game" />
-        <item itemvalue="Python.listas" />
-        <item itemvalue="Python.Formas de crear diccionarios" />
-        <item itemvalue="Python.PROYECTO1" />
-        <item itemvalue="Python.Laboratorio 1" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.OrdenarDiccionariosBurbuja" />
       </list>
     </recent_temporary>
   </component>
@@ -224,29 +237,157 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.22395833" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31518152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Favorites" order="2" sideWeight="0.50165015" side_tool="true" weight="0.22395833" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="234" column="3" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="109" selection-start-line="35" selection-start-column="109" selection-end-line="35" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="234" column="3" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matriz.py" />
+    <entry file="file://$PROJECT_DIR$/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matriz.py" />
+    <entry file="file://$PROJECT_DIR$/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASD.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Jaz/Practicas Python/decimal a binario.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -289,22 +430,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ASD.py" />
     <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matriz.py" />
+    <entry file="file://$PROJECT_DIR$/ahorcado.py" />
+    <entry file="file://$PROJECT_DIR$/prueba.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Carlos/Elecciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9272">
+          <caret line="949" column="12" selection-start-line="949" selection-start-column="12" selection-end-line="949" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Gerald/presidentialelections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21012">
+          <caret line="1236" column="30" lean-forward="true" selection-start-line="1236" selection-start-column="30" selection-end-line="1236" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/OrdenarDiccionariosBurbuja.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../Agenda Day/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1230" />
+        <state relative-caret-position="-1252">
+          <caret line="125" column="37" lean-forward="true" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="3179">
+          <caret line="187" column="59" lean-forward="true" selection-start-line="187" selection-start-column="59" selection-end-line="187" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juegoDosListas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="138" column="25" lean-forward="true" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juegoListaAnidadas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="529" lean-forward="true" selection-start-line="529" selection-end-line="529" />
         </state>
       </provider>
     </entry>
