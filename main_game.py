@@ -63,12 +63,26 @@ def registerUserAdministrator(name, id, password, typeRol):
 def mainLogin():
     print(">>> Menú de inicio de sesión <<<\n"
           "Por favor, ingrese su:")
-    iD = input("1) Identificador: ")
-    password = input("2) Contraseña: ")
+
+
+    verify = False
+    for user in usersList:
+        while verify == False:
+            id = input("1) Identificador: ")
+            if user["id"] == id:
+                password = input("2) Contraseña: ")
+                if user["password"] == password:
+                    verifyTyoeRol(user)
+                elif user["password"] != password :
+                    intentos = 3
+                    while intentos > 0:
+                        print("Le quedan" + str(intentos) + "intentos")
+                        intentos -=1
+
+
 
     print("\n")
 
-    loginUser(iD,password)
 
 
 
