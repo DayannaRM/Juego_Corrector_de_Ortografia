@@ -25,7 +25,7 @@ def registerAdministrator():
 
 
 # Pide los datos al usuario jugador como su: nombre, alias, identificador y contraseña.
-def registerPlayers():
+def registerPlayers(): # Pide datos al usuario jugador para registrarlo
     print("Datos del Jugador:")
     name = (input("1) Nombre del Jugador: "))
     nickname = (input("2) Nickname/Alias: "))
@@ -299,7 +299,7 @@ def userDataLogin():
     for i in usersList[1]:
         if i["id"] == userLogged[0]:
             print("Nombre: " + i["name"] + "." + "\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
-                  + str(i["juegosJugados"])+ "." + "\n" + "Puntos Ganados: " + str(i["puntosGanados"]) + ".")
+                  + str(i["juegosJugados"])+ "." + "\n" + "Puntos Ganados: " + str(i["puntosGanados"]) + ". ")
 
     consultsplayer()
 
