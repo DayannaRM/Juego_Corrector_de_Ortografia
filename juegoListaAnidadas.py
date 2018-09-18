@@ -1,10 +1,13 @@
+import time
 # Guarda la lista de Usuarios registrados, contiene dos sublistas, la que se encuentra en la posición 0 es para los administradores
 # y la que se encuentra en la posición 1 para los jugadores.
 usersList = [[{"name": "Dayanna", "id": "dram", "password": "123", "typeRol": "Administrador"}],
              [{"name":"Selena","nickname":"selena","id": "selena", "password":"1234","typeRol":"Jugador","juegosJugados":0,"puntosGanados":0}]]
 
+userLogged = []
+
 # Guarda la lista de palabras.
-wordsList = []
+wordsListCSZ = {"depre_ivo":"depresivo","Flore_er":"florecer"}
 
 # Pide los datos del usuario administrador como su: nombre, identificador y contraseña.
 def registerAdministrator():
@@ -74,6 +77,7 @@ def mainLogin():
 def loginUser(id,password):
     for i in range(len(usersList)):
         for user in usersList[i]:
+<<<<<<< HEAD
                 if user["id"]== id:
                     if  user["password"]== password:
                         verifyTyoeRol(user)
@@ -83,6 +87,12 @@ def loginUser(id,password):
 
 
 
+=======
+            if user["id"] == id:
+                if user["password"] == password:
+                    userLogged.append(id)
+                    verifyTyoeRol(user)
+>>>>>>> 67bba03f0dacab4617f922a34cab9cec6440ea69
 
 
 def verifyTyoeRol(user):
@@ -137,27 +147,66 @@ def addTypeUser():
         addTypeUser()
 
 
-def removeUsers():
+def removeUsersAdministrators():
 
     count = 1
 
-    for i in range(len(usersList)):
+    for users in usersList[0]:
+        print(str(count) + ") Identificador: " + users["id"] + " (" + users["name"] + ").")
+        count += 1
 
-        for users in usersList[i]:
-            print(str(count) + ") " + users["name"] + " (" + users["typeRol"] + ").")
-            count += 1
+    delete = int(input("→ Digite el número de usuario que desea eliminar: "))
 
-        delete = int(input("→ Digite el número de usuario que desea eliminar: "))
-
-        count2 = 1
+    count2 = 1
+    for y in usersList[0]:
         if delete == count2:
-            usersList.remove(count2)
-            count2 +=1
+            usersList[0].pop(count2 -1)
+        count2 +=1
 
-            print("¡El usuario ha sido eliminado!")
-            print("\n")
+        print("¡El usuario ha sido eliminado!")
+        print("\n")
 
     userAdministrator()
+
+
+def removeUsersPlayers():
+    count = 1
+
+    for users in usersList[1]:
+        print(str(count) + ") Identificador: " + users["id"] + "(" + users["name"] + ").")
+        count += 1
+
+    delete = int(input("→ Digite el número de usuario que desea eliminar: "))
+
+    count2 = 1
+    for y in usersList[1]:
+        if delete == count2:
+            usersList[1].pop(count2 -1)
+        count2 += 1
+
+    print("¡El usuario ha sido eliminado!")
+    print("\n")
+
+    userAdministrator()
+
+
+def removeMenu():
+    print("¿Qué usuario desea eliminar?")
+    print("1) Administrador.\n"
+          "2) Jugador.\n"
+          "3) Regresar.")
+
+    option = int(input("→ Usuario: "))
+
+    if option == 1:
+        removeUsersAdministrators()
+    elif option == 2:
+        removeUsersPlayers()
+    elif option == 3:
+        userAdministrator()
+    else:
+        removeMenu()
+
 
 
 def userAdministrator():
@@ -174,9 +223,9 @@ def userAdministrator():
     if option == 1:
         addTypeUser()
     elif option == 2:
-        removeUsers()
+        removeMenu()
     elif option == 3:
-        print(usersList)
+        print(userLogged)
         administratorMenu()
     elif option == 4:
         administratorMenu()
@@ -186,9 +235,8 @@ def userAdministrator():
 
 def seePlayerList():
     jugador = 1
-    for player in usersList:
-        if player["typeRol"] == "Jugador":
-            print(str(jugador) + ")" + "  Identificador: " + player["id"] + " / " + "Nombre del jugador: " + player["name"]
+    for player in usersList[1]:
+        print(str(jugador) + ")" + " Identificador: " + player["id"] + " / " + "Nombre del jugador: " + player["name"]
                   + " / " + "Nickname: " + player["nickname"] + ".")
         jugador +=1
 
@@ -213,7 +261,6 @@ def consultsAdministratror():
     elif option == 2:
         pass
     elif option == 3:
-        print(usersList)
         pass
     elif option == 4:
         pass
@@ -240,6 +287,7 @@ def administratorMenu():
         consultsAdministratror()
 
     elif opcion == "3" :
+        del (userLogged[:])
         mainMenu()
 
     else:
@@ -247,17 +295,31 @@ def administratorMenu():
 
 
 def modifyNickname():
-   pass
 
+    for y in usersList[1]:
+        if y["id"] == id:
+            newNick = input("Ingrese su nuevo nickname: ")
+            y["id"] = newNick
+            print("jknnjnkin")
+    playerMenu()
 
 def userDataLogin():
+<<<<<<< HEAD
     user = mainLogin()
     for i in usersList:
         if i["id"] == user:
             print("Nombre: " + i["name"] + "." +"\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
                   + i["juegosJugados"] + "." + "\n" + "Puntos Ganados: " + i["puntosGanados"] + ".")
+=======
+    for i in usersList[1]:
+        if i["id"] == userLogged[0]:
+            print("Nombre: " + i["name"] + "." + "\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
+                  + str(i["juegosJugados"])+ "." + "\n" + "Puntos Ganados: " + str(i["puntosGanados"]) + ".")
+>>>>>>> 67bba03f0dacab4617f922a34cab9cec6440ea69
 
     consultsplayer()
+
+
 
 
 def consultsplayer():
@@ -278,7 +340,77 @@ def consultsplayer():
         playerMenu()
     else:
         consultsplayer()
+def categoryCSZ ():
+    print("Instrucciones: Usted debera completar la palabra \n"
+          "con la letra que considera es la correcta(C,S O Z)")
+    print("Para salir, presione la letra Q")
 
+    for i in wordsListCSZ:
+        print("La palabra es: "+ str(i))
+        letra = input(str("Cuál letra falta?: "))
+        time.ctime(5)
+
+        if letra == "q" or letra == "Q":
+            menuPlay()
+        elif letra in wordsListCSZ[i]:
+            print("Es correcto, ganó 2 puntos.")
+
+
+        else:
+            print("Es incorrecto, perdió 1 punto")
+
+def menuPlayComplete():
+    print("----- Menú del juego -----")
+    print("¿Qué categoria ddesea jugar?:\n"
+          "1) Categoria C,S,Z.\n"
+          "2) Categoria G,J.\n"
+          "3) Categoria Y,LL.\n"
+          "4) Categoria B,V,W.\n"
+          "5) Regresar al menú de juego.")
+
+    opcion = input(str("→ Opción: "))
+
+    print("\n")
+
+    if opcion == "1":
+
+        categoryCSZ()
+
+    elif opcion == "2":
+        pass
+
+    elif opcion == "3":
+        playerMenu()
+    elif opcion == "4":
+        pass
+    elif opcion == "5":
+        menuPlay()
+    else:
+        menuPlayComplete()
+
+
+def menuPlay():
+    print("----- Menú de Juego -----")
+    print("¿Qué desea realizar?:\n"
+          "1) Jugar completando.\n"
+          "2) Jugar tildando.\n"
+          "3) Regresar al menú del jugador.\n")
+
+    opcion = input(str("→ Opción: "))
+
+    print("\n")
+
+    if opcion == "1":
+        menuPlayComplete()
+
+    elif opcion == "2":
+        pass
+
+    elif opcion == "3":
+        playerMenu()
+
+    else:
+        menuPlay()
 
 def playerMenu():
     print("----- Menú del Jugador -----")
@@ -294,15 +426,16 @@ def playerMenu():
     print("\n")
 
     if opcion == "1":
-        pass
+        menuPlay()
 
     elif opcion == "2":
-        pass
+        modifyNickname()
 
     elif opcion == "3":
         consultsplayer()
 
     elif opcion == "4":
+        del (userLogged[:])
         mainMenu()
 
     else:
