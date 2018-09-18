@@ -71,21 +71,19 @@ def mainLogin():
 
     loginUser(iD,password)
 
-
-
-
 def loginUser(id,password):
-
     for i in range(len(usersList)):
         for user in usersList[i]:
-            if user["id"] == id:
-                if user["password"] == password:
-                    verifyTyoeRol(user)
+                if user["id"]== id:
+                    if  user["password"]== password:
+                        verifyTyoeRol(user)
+                    else:
+                        i=0
+                        while i>3:
 
-                else:
-                    print("No le quedan intentos")
-                    print("\n")
-                    mainMenu()
+
+
+
 
 def verifyTyoeRol(user):
 
@@ -256,7 +254,8 @@ def userDataLogin():
     user = mainLogin()
     for i in usersList:
         if i["id"] == user:
-            print("Nombre: " + i["name"] + "." +"\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: " + i["juegosJugados"] + "." + "\n" + "Puntos Ganados: " + i["puntosGanados"] + ".")
+            print("Nombre: " + i["name"] + "." +"\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
+                  + i["juegosJugados"] + "." + "\n" + "Puntos Ganados: " + i["puntosGanados"] + ".")
 
     consultsplayer()
 
