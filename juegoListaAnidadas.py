@@ -74,17 +74,25 @@ def mainLogin():
 
     loginUser(iD,password)
 
-
-
-
 def loginUser(id,password):
-
     for i in range(len(usersList)):
         for user in usersList[i]:
+<<<<<<< HEAD
+                if user["id"]== id:
+                    if  user["password"]== password:
+                        verifyTyoeRol(user)
+                    else:
+                        i=0
+                        while i>3:
+
+
+
+=======
             if user["id"] == id:
                 if user["password"] == password:
                     userLogged.append(id)
                     verifyTyoeRol(user)
+>>>>>>> 67bba03f0dacab4617f922a34cab9cec6440ea69
 
 
 def verifyTyoeRol(user):
@@ -296,10 +304,22 @@ def modifyNickname():
     playerMenu()
 
 def userDataLogin():
+<<<<<<< HEAD
+    user = mainLogin()
+    for i in usersList:
+        if i["id"] == user:
+            print("Nombre: " + i["name"] + "." +"\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
+                  + i["juegosJugados"] + "." + "\n" + "Puntos Ganados: " + i["puntosGanados"] + ".")
+=======
     for i in usersList[1]:
         if i["id"] == userLogged[0]:
             print("Nombre: " + i["name"] + "." + "\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
+<<<<<<< HEAD
                   + str(i["juegosJugados"])+ "." + "\n" + "Puntos Ganados: " + str(i["puntosGanados"]) + ". ")
+=======
+                  + str(i["juegosJugados"])+ "." + "\n" + "Puntos Ganados: " + str(i["puntosGanados"]) + ".")
+>>>>>>> 67bba03f0dacab4617f922a34cab9cec6440ea69
+>>>>>>> 686a93dc541554ef230a66c4bca3f1023593217c
 
     consultsplayer()
 
