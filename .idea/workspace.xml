@@ -2,17 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64aa781-95b7-481f-b9c9-795b135be4f1" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/juegoListaAnidadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/juegoListaAnidadas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_game.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+=======
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+      <change beforePath="$PROJECT_DIR$/.idea/Juego_Corrector_de_Ortografia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Juego_Corrector_de_Ortografia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="FUSProjectUsageTrigger">
+    <session id="241912572">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main_game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+=======
   <component name="FavoritesManager">
     <favorites_list name="Juego_Corrector_de_Ortografia" />
   </component>
@@ -57,8 +98,14 @@
       <file leaf-file-name="listas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/listas.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="119">
               <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+=======
+            <state relative-caret-position="896">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
             </state>
           </provider>
         </entry>
@@ -82,6 +129,13 @@
         <option value="$PROJECT_DIR$/matriz.py" />
         <option value="$PROJECT_DIR$/ahorcado.py" />
         <option value="$PROJECT_DIR$/prueba.py" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/main_game.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/sdfe.py" />
+=======
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
         <option value="$PROJECT_DIR$/juegoDosListas.py" />
         <option value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py" />
         <option value="$PROJECT_DIR$/sad.py" />
@@ -89,6 +143,7 @@
         <option value="$PROJECT_DIR$/da.py" />
         <option value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema ListaDeListas/listasdeListas.py" />
         <option value="$PROJECT_DIR$/juegoListaAnidadas.py" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
       </list>
     </option>
   </component>
@@ -117,7 +172,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Materia/Semana14Archivos" />
+=======
+    <property name="last_opened_file_path" value="C:/../Agenda Day/main.py" />
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -141,15 +200,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="C:/../I Semestre 2018/Taller/Extras/Jaz/Python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/../I Semestre 2018/Taller/Extras/Jaz/Python/Formas de crear diccionarios.py" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/ExpresionesSimplesPython.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/OrdenarDiccionariosBurbuja.py" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="juegoListaAnidadas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
@@ -159,15 +233,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="C:/../I Semestre 2018/Taller/Extras/Jaz/Practicas Python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/../I Semestre 2018/Taller/Extras/Jaz/Practicas Python/Laboratorio 1.py" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juegoListaAnidadas.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juegoDosListas.py" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="listas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
@@ -177,15 +266,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/listas.py" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="C:/../I Semestre 2018/Taller/Extras/Jaz/Documentos proyecto" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/../I Semestre 2018/Taller/Extras/Jaz/Documentos proyecto/PROYECTO1.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juegoListaAnidadas.py" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="listasdeListas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
@@ -195,15 +303,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema ListaDeListas" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Extras/Python/Tema ListaDeListas/listasdeListas.py" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="C:/../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/listas.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../Agenda Day" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../Agenda Day/main.py" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="modificar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Juego_Corrector_de_Ortografia" />
@@ -222,6 +349,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.juegoListaAnidadas" />
@@ -263,11 +393,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49422634" visible="true" weight="0.22395833" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972136" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32733223" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.22395833" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -283,6 +439,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -294,6 +455,21 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://C:/../I Semestre 2018/Taller/Extras/Jaz/Practicas Python/decimal a binario.py" />
+    <entry file="file://C:/../I Semestre 2018/Taller/Extras/Jaz/Practicas Python/Contar elementos listas.py" />
+    <entry file="file://C:/../I Semestre 2018/Taller/Extras/Jaz/Practicas Python/Laboratorio 1.py" />
+    <entry file="file://C:/../I Semestre 2018/Taller/Extras/Jaz/Documentos proyecto/PROYECTO1.py" />
+    <entry file="file://C:/../I Semestre 2018/Taller/Extras/Jaz/Python/Formas de crear diccionarios.py" />
+    <entry file="file://C:/../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/listas.py" />
+    <entry file="file://C:/../I Semestre 2018/Taller/Extras/Python/Tema Diccionarios-Listas/diccionariosListas.py" />
+    <entry file="file://C:/../Agenda Day/main.py" />
+    <entry file="file://$PROJECT_DIR$/sdfe.py" />
+    <entry file="file://$PROJECT_DIR$/main_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+=======
     <entry file="file://$PROJECT_DIR$/../../../../../I Semestre 2018/Taller/Progra/Progra 1/Elections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4284">
@@ -576,8 +752,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/juegoListaAnidadas.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="243">
           <caret line="299" column="19" selection-start-line="299" selection-start-column="19" selection-end-line="299" selection-end-column="19" />
+=======
+        <state relative-caret-position="190">
+          <caret line="529" lean-forward="true" selection-start-line="529" selection-end-line="529" />
+>>>>>>> 639cb845b2b3a01463f302c52b74f0b54ce57565
+>>>>>>> d989a9c5cb3e224a43085ed78ab8eae327990223
         </state>
       </provider>
     </entry>
