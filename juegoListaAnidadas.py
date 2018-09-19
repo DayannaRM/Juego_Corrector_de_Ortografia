@@ -4,10 +4,10 @@ import time
 usersList = [[{"name": "Dayanna", "id": "dram", "password": "123", "typeRol": "Administrador"}],
              [{"name":"Selena","nickname":"selena","id": "selena", "password":"1234","typeRol":"Jugador","juegosJugados":0,"puntosGanados":0}]]
 
-userLogged = []
+userLogged = [] # Guarda el id del Usuario que esta logueado en ese momento
 
-# Guarda la lista de palabras.
-wordsListCSZ = {"depre_ivo":"depresivo","Flore_er":"florecer"}
+# Guarda la lista de palabras con C, S y Z.
+wordsListCSZ = [["depre_ivo","s","depresivo"],["Flore_er","c","florecer"]]
 
 # Pide los datos del usuario administrador como su: nombre, identificador y contraseña.
 def registerAdministrator():
@@ -77,22 +77,13 @@ def mainLogin():
 def loginUser(id,password):
     for i in range(len(usersList)):
         for user in usersList[i]:
-<<<<<<< HEAD
+
                 if user["id"]== id:
                     if  user["password"]== password:
+                        userLogged.append(id)
                         verifyTyoeRol(user)
                     else:
-                        i=0
-                        while i>3:
-
-
-
-=======
-            if user["id"] == id:
-                if user["password"] == password:
-                    userLogged.append(id)
-                    verifyTyoeRol(user)
->>>>>>> 67bba03f0dacab4617f922a34cab9cec6440ea69
+                        pass
 
 
 def verifyTyoeRol(user):
@@ -112,7 +103,6 @@ def mainMenu():
     run_program = True
 
     while(run_program):
-
         print("***** Bienvenido al Juego Corrector de Ortografía ***** \n"
                             "1) Iniciar Sesión.\n"
                             "2) Salir. ")
@@ -233,7 +223,7 @@ def userAdministrator():
         userAdministrator()
 
 
-def seePlayerList():
+def seePlayerListAdministrator():
     jugador = 1
     for player in usersList[1]:
         print(str(jugador) + ")" + " Identificador: " + player["id"] + " / " + "Nombre del jugador: " + player["name"]
@@ -243,6 +233,20 @@ def seePlayerList():
     print("\n")
 
     consultsAdministratror()
+
+
+def seePlayerListPlayers():
+    jugador = 1
+    for player in usersList[1]:
+        print(str(jugador) + ")" + " Identificador: " + player["id"] + " / " + "Nombre del jugador: " + player["name"]
+                  + " / " + "Nickname: " + player["nickname"] + ".")
+        jugador +=1
+
+    print("\n")
+
+    consultsplayer()
+
+
 
 def consultsAdministratror():
     print("----- Menú de Consultas ------")
@@ -257,7 +261,7 @@ def consultsAdministratror():
     print("\n")
 
     if option == 1:
-        seePlayerList()
+        seePlayerListAdministrator()
     elif option == 2:
         pass
     elif option == 3:
@@ -297,30 +301,16 @@ def administratorMenu():
 def modifyNickname():
 
     for y in usersList[1]:
-        if y["id"] == id:
-            newNick = input("Ingrese su nuevo nickname: ")
-            y["id"] = newNick
-            print("jknnjnkin")
+        if y["id"] == userLogged[0]:
+            newNick = input("Ingrese su nuevo nickname(" + y["nickname"] + "): " )
+            y["nickname"] = newNick
     playerMenu()
 
 def userDataLogin():
-<<<<<<< HEAD
-    user = mainLogin()
-    for i in usersList:
-        if i["id"] == user:
-            print("Nombre: " + i["name"] + "." +"\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
-                  + i["juegosJugados"] + "." + "\n" + "Puntos Ganados: " + i["puntosGanados"] + ".")
-=======
     for i in usersList[1]:
         if i["id"] == userLogged[0]:
             print("Nombre: " + i["name"] + "." + "\n" + "Alias: " + i["nickname"] + "." + "\n" + "Juegos jugados: "
-<<<<<<< HEAD
-                  + str(i["juegosJugados"])+ "." + "\n" + "Puntos Ganados: " + str(i["puntosGanados"]) + ". ")
-=======
                   + str(i["juegosJugados"])+ "." + "\n" + "Puntos Ganados: " + str(i["puntosGanados"]) + ".")
->>>>>>> 67bba03f0dacab4617f922a34cab9cec6440ea69
->>>>>>> 686a93dc541554ef230a66c4bca3f1023593217c
-
     consultsplayer()
 
 
@@ -337,7 +327,7 @@ def consultsplayer():
     print("\n")
 
     if option == 1:
-        seePlayerList()
+        seePlayerListPlayers()
     elif option == 2:
         userDataLogin()
     elif option == 3:
@@ -345,27 +335,66 @@ def consultsplayer():
     else:
         consultsplayer()
 def categoryCSZ ():
-    print("Instrucciones: Usted debera completar la palabra \n"
-          "con la letra que considera es la correcta(C,S O Z)")
+    print("Instrucciones: Usted debera completar la palabra\n"
+          "con la letra que considera es la correcta(C,S O Z)\n"
+          "tendra un tiempo maximo de 15 segundos para responder\n"
+          "cada palabra, si sobrepasa el tiempo maximo, la palabra\n"
+          "no contara y se le restaran puntos")
     print("Para salir, presione la letra Q")
+    time.sleep(10)
+    print("--------------------------------------------------")
+    time.sleep(1.5)
 
-    for i in wordsListCSZ:
-        print("La palabra es: "+ str(i))
+    for x in wordsListCSZ:
+        start = time.time()
+        print("La palabra es: "+ str(x[0]))
         letra = input(str("Cuál letra falta?: "))
-        time.ctime(5)
+        final = time.time()
+        timer = round(final - start,0)
+
+
 
         if letra == "q" or letra == "Q":
-            menuPlay()
-        elif letra in wordsListCSZ[i]:
-            print("Es correcto, ganó 2 puntos.")
+            menuPlayComplete()
+
+        elif timer > 15 and letra == (x[1]):
+            for i in usersList[1]:
+                if i["id"] == userLogged[0]:
+                    i["puntosGanados"] = i["puntosGanados"] -2
+                    print("Lo sentimos, no respondió en el tiempo establecido. La palabra era: " + str(x[2]) + "." )
+                    print(timer)
+                    print("\n")
+
+        elif letra == (x[1]):
+            for i in usersList[1]:
+                if i["id"] == userLogged[0]:
+                    i["puntosGanados"] = i["puntosGanados"] +2
+                    print("Es correcto, ganó 2 puntos.")
+                    print("\n")
+
+        elif timer > 15 and letra != (x[1]):
+            for i in usersList[1]:
+                if i["id"] == userLogged[0]:
+                    i["puntosGanados"] = i["puntosGanados"] -2
+                    print("Lo sentimos, no respondió en el tiempo establecido. La palabra era: " + str(x[2]) + "." )
+                    print(timer)
+                    print("\n")
 
 
         else:
-            print("Es incorrecto, perdió 1 punto")
+            for i in usersList[1]:
+                if i["id"] == userLogged[0]:
+                    i["puntosGanados"] -=1
+            print("Es incorrecto, perdió 1 punto, la palabra era: " + str(x[2]) + ".")
+            print("\n")
+
+
+
+    menuPlayComplete()
 
 def menuPlayComplete():
     print("----- Menú del juego -----")
-    print("¿Qué categoria ddesea jugar?:\n"
+    print("¿Qué categoria desea jugar?:\n"
           "1) Categoria C,S,Z.\n"
           "2) Categoria G,J.\n"
           "3) Categoria Y,LL.\n"
@@ -377,8 +406,10 @@ def menuPlayComplete():
     print("\n")
 
     if opcion == "1":
-
-        categoryCSZ()
+        for i in usersList[1]:
+            if i["id"] == userLogged[0]:
+                i["juegosJugados"] = i["juegosJugados"] + 1
+                categoryCSZ()
 
     elif opcion == "2":
         pass
@@ -444,10 +475,6 @@ def playerMenu():
 
     else:
         playerMenu()
-
-
-
-
 
 
 mainMenu()
